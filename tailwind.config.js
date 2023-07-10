@@ -15,8 +15,9 @@ module.exports = {
     },
     colors: {
       // club_prevrequests
+      "club-previous-requests-header-text": "#000000",
       "club_prevrequests-card-bg": "#D9D9D9",
-      "club_prevrequests-card-text": "#000000",
+      "club_prevrequests-card-text": "#222222",
     },
   },
   plugins: [],
