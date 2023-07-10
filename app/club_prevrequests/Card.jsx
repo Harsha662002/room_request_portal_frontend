@@ -4,7 +4,7 @@ import clsx from "clsx";
 const Card = ({ nameOfTheEvent, date, hallBooked, request, status }) => {
   return (
     <li className="flex flex-col py-4 rounded-md shadow-md bg-club_prevrequests-card-bg text-club_prevrequests-card-text sm:flex-row">
-      <div className="px-4 py-2 space-y-2 sm:w-4/5">
+      <div className="px-4 py-2 space-y-2 sm:px-6 md:px-8 sm:w-4/5">
         <div className="flex flex-col sm:flex-row sm:items-center">
           <h3 className="text-sm font-medium uppercase">Name of the Event:</h3>{" "}
           <p className="text-lg sm:ml-4">{nameOfTheEvent}</p>
