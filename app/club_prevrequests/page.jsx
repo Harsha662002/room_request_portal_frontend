@@ -39,7 +39,7 @@ const page = () => {
     <>
       {" "}
       <Header clubName="System Coding Club" picName="Priyanka Kokil" />{" "}
-      <div className="px-8 py-2">
+      <div className="px-4 pt-4 pb-12 sm:px-6 md:px-8">
         <h2 className="text-3xl text-black">Previous Hall Bookings</h2>
         <ul className="mt-4 space-y-4">
           {data.map((item, index) => (
