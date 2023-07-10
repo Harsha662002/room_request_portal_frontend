@@ -1,8 +1,9 @@
 import React from "react";
+import clsx from "clsx";
 
 const Card = ({ nameOfTheEvent, date, hallBooked, request, status }) => {
   return (
-    <div className="flex flex-col bg-club_prevrequests-card-bg text-club_prevrequests-card-text sm:flex-row">
+    <div className="flex flex-col py-4 rounded-md shadow-md bg-club_prevrequests-card-bg text-club_prevrequests-card-text sm:flex-row">
       <div className="px-4 py-2 space-y-2 sm:w-4/5">
         <div className="flex flex-col sm:flex-row sm:items-center">
           <h3 className="text-sm font-medium uppercase">Name of the Event:</h3>{" "}
@@ -24,7 +25,15 @@ const Card = ({ nameOfTheEvent, date, hallBooked, request, status }) => {
       <div className="flex items-end px-4 pb-4">
         <div className="flex items-center">
           <h3 className="text-sm font-medium uppercase">Status:</h3>{" "}
-          <p className="ml-4 text-lg">{status}</p>
+          <p
+            className={clsx(
+              "ml-4 text-lg",
+              status === "Pending" && "text-yellow-800",
+              status === "Approved" && "text-green-600"
+            )}
+          >
+            {status}
+          </p>
         </div>
       </div>
     </div>
