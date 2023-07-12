@@ -16,7 +16,7 @@ const AdminReject = () => {
         </div>
         <div class="line-separator w-full h-px bg-black"></div>
         <div>
-          <h2 class="my-2 mt-3 text-xl font-semibold">Rejected Requests</h2>
+          <h2 class="my-2 mt-3 text-xl font-semibold">Rejected Request</h2>
           <div class="cards">
             <div class="card flex items-center p-3 flex-col md:flex-row" style="background-color: #80808080;">
               <div class="w-full md:w-3/5">
