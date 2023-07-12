@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from '@/app/components/Navbar/Navbar';
-import FacName from '@/app/components/FacName/FacName';
-import ReqBtn from '@/app/components/ReqBtn/ReqBtn';
-import PenReq from '@/app/components/PenReq/PenReq';
-import Card from '@/app/components/Card/Card';
-import Footer from '@/app/components/Footer/Footer';
+import Navbar from '@/app/admin_components/Navbar/Navbar';
+import FacName from '@/app/admin_components/FacName/FacName';
+import ReqBtn from '@/app/admin_components/ReqBtn/ReqBtn';
+import PenReq from '@/app/admin_components/PenReq/PenReq';
+import Card from '@/app/admin_components/Card/Card';
+import Footer from '@/app/admin_components/Footer/Footer';
 
 const data = [
   {
