@@ -25,17 +25,17 @@ const Card = ({ nameOfTheEvent, date, hallBooked, request }) => {
         <div className="flex items-end sm:itens-center px-4 pb-2">
           <div className="flex items-center">
             <div className='px-4'>
-              <button href="" class="bg-transparent hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 border border-black hover:border-transparent rounded-none">
+              <button href="" className="bg-transparent hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 border border-black hover:border-transparent rounded-none">
                 Open
               </button>
             </div>
             <div className='px-4'>
-              <button href="" class="bg-transparent hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 border border-black hover:border-transparent rounded-none">
+              <button href="" className="bg-transparent hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 border border-black hover:border-transparent rounded-none">
                 Accept
               </button>
             </div>
             <div className='px-4'>
-              <button href="" class="bg-transparent hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 border border-black hover:border-transparent rounded-none">
+              <button href="" className="bg-transparent hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 border border-black hover:border-transparent rounded-none">
                 Reject
               </button>
             </div>
