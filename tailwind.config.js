@@ -16,6 +16,9 @@ module.exports = {
         inter: ["Inter", "sans-serif"],
       },
       colors: {
+        // app header
+        "app-header-bg": "#D9D9D9",
+        "dark-app-header-bg": "#000000",
         // club_prevrequests
         "club-previous-requests-header-text": "#000000",
         "dark-club-previous-requests-header-text": "#fdfdfd",
